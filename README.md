@@ -23,7 +23,7 @@ Para probar el proyecto en un entorno local, abrir terminales separadas en la ra
 
 ```bash
 # Terminal 1: servidor
-go run ./cmd/servidor/main.go
+docker-compose up --build
 
 # Terminal 2: cliente (podés abrir varias terminales de cliente)
 go run ./cmd/cliente/main.go
